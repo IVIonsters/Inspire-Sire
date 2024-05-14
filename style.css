@@ -40,7 +40,7 @@ body {
     width: 175px;
     height: 3px;
     border-radius: 3px;
-    background: #216869;
+    background: #1F2421;
     position: absolute;
     bottom: -10px;
     left: 50%;
@@ -71,7 +71,7 @@ body {
     content: '';
     width: 20px;
     height: 2px;
-    background: #216869;
+    background: #1F2421;
     position: absolute;
     top: 50%;
     left: -30px;
