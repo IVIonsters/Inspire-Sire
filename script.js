@@ -24,9 +24,19 @@ function tweet() {
     author.innerHTML, "Tweet Window", "width=600, height=300");
 }
 
+//instagram function
+function insta() {
+    window.open("https://instagram.com", "Instagram Window", "width=600, height=600");
+}
+
 // on button click run the function - tweet
-document.getElementById('twitter').addEventListener('click', () => {
+document.getElementById('twitter',).addEventListener('click', () => {
     tweet();
+});
+
+// on button click run the function - instagram
+document.getElementById('instagram',).addEventListener('click', () => {
+    insta();
 });
 
 //  on page load run the function
