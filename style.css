@@ -15,7 +15,7 @@ body {
 }
 
 /* quote box styling */
-.quote-box {
+.quotecontainer {
     background-color: rgba(220, 225, 222, .95);
     width: 700px;
     position: absolute;
@@ -29,14 +29,14 @@ body {
 }
 
 /* quote of the day styling */
-.quote-box h2 {
+.quotecontainer h2 {
     font-size: 32px;
     margin-bottom: 40px;
     position: relative;
 }
 
 /* line under quote of the day styling */
-.quote-box h2::after {
+.quotecontainer h2::after {
     content: '';
     width: 125px;
     height: 3px;
@@ -49,18 +49,18 @@ body {
 }
 
 /* center loading styling */
-.quote-box blockquote {
+.quotecontainer blockquote {
     font-size: 26px;
     min-height: 110px;
 }
 
 /* "" surrounding loading */
-.quote-box blockquote::before, .quote-box blockquote::after {
+.quotecontainer blockquote::before, .quotecontainer blockquote::after {
     content: '"';
 }
 
 /* Author bottom right */
-.quote-box span {
+.quotecontainer span {
     display: block;
     margin-top: 10px;
     float: right;
@@ -68,7 +68,7 @@ body {
 }
 
 /* loading -  */
-.quote-box span::before {
+.quotecontainer span::before {
     content: '';
     width: 20px;
     height: 2px;
@@ -79,7 +79,7 @@ body {
 }
 
 /* button positioning */
-.quote-box div {
+.quotecontainer section {
     width: 100%;
     margin-top: 50px;
     display: flex;
@@ -87,7 +87,7 @@ body {
 }
 
 /* button styling */
-.quote-box button {
+.quotecontainer button {
     background: #9CC5A1;
     color: #fff;
     border-radius: 25px;
@@ -103,13 +103,13 @@ body {
 }
 
 /* twitter icon styling */
-.quote-box button img {
+.quotecontainer button img {
     width: 25px;
     margin-right: 10px;
 }
 
 /* second button styling changes */
-.quote-box button:nth-child(2) {
+.quotecontainer button:nth-child(2) {
     background: transparent;
     color: black;
 }
